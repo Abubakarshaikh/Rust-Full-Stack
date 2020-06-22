@@ -1,8 +1,14 @@
+// https://github.com/stevepryde/thirtyfour/issues/11
+
 use thirtyfour::sync::prelude::*;
 
 fn main() -> WebDriverResult<()> {
      let caps = DesiredCapabilities::chrome();
-     let driver = WebDriver::new("http://localhost:4444", &caps)?;
+  
+     // docker run --rm -d -p 4444:4444 -p 5900:5900 --name selenium-server -v /dev/shm:/dev/shm selenium/standalone-chrome-debug:3.141.59-zinc
+     let docker_selenium = "http://localhost:4444/wd/hub";
+
+     let driver = WebDriver::new(docker_selenium, &caps)?;
 
      // Navigate to https://wikipedia.org.
      driver.get("https://wikipedia.org")?;
@@ -20,7 +26,8 @@ fn main() -> WebDriverResult<()> {
 
      // Look for header to implicitly wait for the page to load.
      driver.find_element(By::ClassName("firstHeading"))?;
-     assert_eq!(driver.title()?, "Selenium - Wikipedia");
+     let title = driver.title()?;
+     println!("{}", title);
 
      Ok(())
 }

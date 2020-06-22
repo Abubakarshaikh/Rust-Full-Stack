@@ -5,7 +5,7 @@ authors = ["www.steadylearner.com/blog/search/Rust"]
 edition = "2018"
 
 [dependencies]
-thirtyfour = {version = "0.12.0", features = ["blocking"]}
+thirtyfour = {version = "0.13.0", features = ["blocking"]}
 
 # https://doc.rust-lang.org/cargo/reference/features.html#the-features-section
 # https://github.com/stevepryde/thirtyfour#feature-flags
