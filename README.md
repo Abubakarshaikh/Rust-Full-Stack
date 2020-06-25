@@ -110,6 +110,8 @@ You can support this repository with Bitcoin.
 1ESPcN8eQs8mXYYgbYysg9whzY4k3scSpy
 ```
 
+If you want the similar repository for Ethernum, visit [eth-diary](https://github.com/steadylearner/ethdev-diary) repository.
+
 [![Rust full stack chat app](https://www.steadylearner.com/static/images/post/web/full-stack-rust-chat-app-by-steadylearner.png)](https://www.steadylearner.com/blog/read/Fullstack-Rust-with-Yew)
 
 ## The reason to use this repository
@@ -139,14 +141,11 @@ Use them if you need a personal help or need a new developer in your company.
 
 ## The current state of this repository
 
-I am working and learning blockchain technologies. There will be less update than before.
-
-**Rust will be my hobby language until I can find a job that I can use it.** 
+I am working [while learning blockchain technologies.](https://github.com/steadylearner/ethdev-diary) There will be less update than before. 
 
 ```console
 Python
 
-* Scrape craiglist and Telegram group messages to find jobs.
 * Transaction(Paypal, Stripe), Visa, Mastercard and Cryptocurrencies.
 * Make a full stack app with FAST API and deploy.
 * Include email verification for the login process.
@@ -155,12 +154,8 @@ Python
 
 Dweb
 
-* Solidity, Web3.js
-* IPFS
-
-Code this.
-
-https://www.dappuniversity.com/articles/the-ultimate-ethereum-dapp-tutorial
+* Solidity, Web3.js, React
+* IPFS with Infura
 
 Rust
 
@@ -172,6 +167,10 @@ Golang
 
 * Docker, ipfs, aws etc with it.
 * Make concurrent requests with go channels for targets. 
+
+TypeScript
+
+* [type-graphql](https://github.com/MichalLytek/type-graphql/tree/master/examples)
 ```
 
 ## Interesting projects and blog posts from others
