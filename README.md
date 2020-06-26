@@ -110,7 +110,7 @@ You can support this repository with Bitcoin.
 1ESPcN8eQs8mXYYgbYysg9whzY4k3scSpy
 ```
 
-If you want the similar repository for Ethernum, visit [eth-diary](https://github.com/steadylearner/ethdev-diary) repository.
+If you want the similar one for Ethernum, visit [eth-diary](https://github.com/steadylearner/ethdev-diary) repository.
 
 [![Rust full stack chat app](https://www.steadylearner.com/static/images/post/web/full-stack-rust-chat-app-by-steadylearner.png)](https://www.steadylearner.com/blog/read/Fullstack-Rust-with-Yew)
 
@@ -206,6 +206,7 @@ TypeScript
 * [lazy_static](https://github.com/rust-lang-nursery/lazy-static.rs) and [once_cell](https://github.com/matklad/once_cell)
 * [juniper](https://github.com/graphql-rust/juniper), and [graphql-client](https://github.com/graphql-rust/graphql-client)
 * [rayon](https://github.com/rayon-rs/rayon), [crossbeam](https://github.com/crossbeam-rs/crossbeam), [easy-parallel](https://github.com/stjepang/easy-parallel), [fearles concurrency](https://blog.rust-lang.org/2015/04/10/Fearless-Concurrency.html) etc for multithreading
+* [Rust + Tokio.rs + ElectronJs + React](https://www.reddit.com/r/rust/comments/hg73qw/rust_tokiors_electronjs_react_heaven/)
 
 ## CLI
 
@@ -242,7 +243,7 @@ Then, use [thiserror](https://github.com/dtolnay/thiserror) to build a web serve
 5. [Rust async book](https://rust-lang.github.io/async-book/01_getting_started/01_chapter.html), [tokio](https://tokio.rs/), [async-std](https://docs.rs/async-std/1.4.0/async_std/), [async executors](https://blog.wnut.pw/2020/02/25/anouncing-async_executors-a-building-block-for-executor-agnostic-libraries/)
 6. [futures crate documentation](https://docs.rs/futures/0.3.1/futures/future/struct.AndThen.html) and [future by example](https://docs.rs/future-by-example/0.1.0/future_by_example/)
 7. [embed-async-await](https://ferrous-systems.com/blog/embedded-async-await/)
-8. [a primer to Rust async](https://omarabid.com/async-rust)
+8. [a primer to Rust async](https://omarabid.com/async-rust), [A practical guide to async in Rust](http://blog.logrocket.com/a-practical-guide-to-async-in-rust/)
 
 ## Macro
 
