@@ -110,7 +110,7 @@ You can support this repository with Bitcoin.
 1ESPcN8eQs8mXYYgbYysg9whzY4k3scSpy
 ```
 
-If you want the similar one for Ethernum, visit [eth-diary](https://github.com/steadylearner/ethdev-diary) repository.
+If you want the similar one for Ethereum, visit [eth-diary](https://github.com/steadylearner/ethdev-diary) repository.
 
 [![Rust full stack chat app](https://www.steadylearner.com/static/images/post/web/full-stack-rust-chat-app-by-steadylearner.png)](https://www.steadylearner.com/blog/read/Fullstack-Rust-with-Yew)
 
