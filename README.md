@@ -395,8 +395,9 @@ You can find microservices examples built with **Warp**, **Tonic**, **Postgresql
 
 ## React
 
-1. [Start with this.](https://github.com/steadylearner/Rust-Full-Stack/tree/master/parcel-react)
-2. [Make umd proudction files and call it inside `<script>` with rollup](https://github.com/steadylearner/react-embed-with-rollup)
+* [Start with this.](https://github.com/steadylearner/Rust-Full-Stack/tree/master/parcel-react)
+* [Make umd proudction files and call it inside `<script>` with rollup](https://github.com/steadylearner/react-embed-with-rollup)
+* [React with Ethereum](https://github.com/steadylearner/ethdev-diary/tree/master/start/react-parcel-eth) 
 
 ## Resume
 
